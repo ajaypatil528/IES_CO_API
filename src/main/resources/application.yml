@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: Spring@MySQL22
+    url: jdbc:mysql://localhost:3306/IES
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: MYSQL
+    show-sql: true
+    
+  
+  main:
+    allow-bean-definition-overriding: true
